@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running on Heroku"
+    return "Flask app is running on Heroku, just checking if it's working or not!"
 
 port = int(os.getenv("PORT", 5001))
 
